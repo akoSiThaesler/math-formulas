@@ -1,0 +1,8 @@
+# Ignore anything inside the target directory
+target/**
+
+# Ignore anything inside the .idea directory
+.idea/**
+
+# Ignore anything inside the logs directory
+logs/**
