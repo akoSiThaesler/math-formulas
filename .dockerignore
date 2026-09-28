@@ -5,3 +5,6 @@
 !target/quarkus-app/*
 !certificates/*
 !jenkins/*
+# Sources for the multi-stage build in ./Dockerfile
+!pom.xml
+!src

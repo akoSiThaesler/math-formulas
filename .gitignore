@@ -6,3 +6,6 @@ target/**
 
 # Ignore anything inside the logs directory
 logs/**
+
+# Downloaded by mvnw on its first run
+.mvn/wrapper/maven-wrapper.jar

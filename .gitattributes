@@ -1,0 +1,7 @@
+# LF in the repository and in every checkout: mvnw and the Docker build run on Linux,
+# and a CRLF mvnw fails there with "/bin/sh^M: bad interpreter"
+* text=auto eol=lf
+# Windows batch files keep CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.jar binary

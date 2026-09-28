@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.gugel</groupId>
     <artifactId>math-formulas</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <properties>
         <compiler-plugin.version>3.11.0</compiler-plugin.version>
         <maven.compiler.source>21</maven.compiler.source>
@@ -65,6 +65,11 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-smallrye-health</artifactId>
+        </dependency>
+        <!-- OpenAPI document at /q/openapi and Swagger UI at /q/swagger-ui -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-smallrye-openapi</artifactId>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
